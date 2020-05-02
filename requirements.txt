@@ -1,0 +1,8 @@
+flask==1.0.2
+keras==2.2.4
+matplotlib==3.0.2
+numpy==1.15.4
+opencv-python==3.4.9.33
+pandas==0.23.4
+scikit-learn==0.20.1
+tqdm==4.28.1
