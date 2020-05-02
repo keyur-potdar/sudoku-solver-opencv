@@ -7,7 +7,7 @@ Sudoku is a logic-based, combinatorial number-placement puzzle. The objective is
 
 The app is deployed on Heroku using Flask. It can be found at [https://sudoku-solver-opencv.herokuapp.com/](https://sudoku-solver-opencv.herokuapp.com/).
 
-##### Website sample:
+#### Website sample:
 ![](images/website.png)
 
 ### Process
@@ -18,7 +18,7 @@ The app is deployed on Heroku using Flask. It can be found at [https://sudoku-so
 5) Solve the Sudoku puzzle using a backtracking algorithm. Solves even the hardest puzzles in less than 10 milliseconds.
 6) Draw the solved puzzle back on the original image.
 
-##### Files:
+#### Files:
 
  - `image_processing_utils.py`: pre-processing image and extraction of digits.
  - `Digit Recognition.ipynb`: training the CNN model to predict digits.
