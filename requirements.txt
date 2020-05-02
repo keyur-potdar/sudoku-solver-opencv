@@ -1,4 +1,5 @@
 flask==1.0.2
+gunicorn==20.0.4
 keras==2.2.4
 matplotlib==3.0.2
 numpy==1.15.4
