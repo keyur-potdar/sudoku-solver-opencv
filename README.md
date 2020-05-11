@@ -15,7 +15,7 @@ The app is deployed on Heroku using Flask. It can be found at [https://sudoku-so
 2) Crop the image to get only the Sudoku grid. Align the box properly if it is tilted.
 3) Divide the cropped image into a grid of size 9x9 and extract digits from the cells.
 4) Predict the digits using CNN. The CNN model was trained on data from the following repository: [https://github.com/wichtounet/sudoku_dataset](https://github.com/wichtounet/sudoku_dataset). It consists of a total of 200 Sudoku images out of which 160 were used for training and 40 were used for testing. To train the CNN, digits were extracted from all the Sudoku images.
-5) Solve the Sudoku puzzle using a backtracking algorithm. Solves even the hardest puzzles in less than 10 milliseconds.
+5) Solve the Sudoku puzzle using backtracking. Solves even the hardest puzzles in less than 10 milliseconds.
 6) Draw the solved puzzle back on the original image.
 
 #### Files:

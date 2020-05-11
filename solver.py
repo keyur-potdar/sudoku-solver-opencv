@@ -67,7 +67,7 @@ def _generate_rcg(i, j, x):
 
 
 def _solve(board, memo, blank):
-    """Solves the puzzle recursively using DFS."""
+    """Solves the puzzle recursively using backtracking."""
     if not blank:
         return True
     i, j = blank[-1]
