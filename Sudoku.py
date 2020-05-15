@@ -57,7 +57,7 @@ class Sudoku:
         self.solved_image = None
         self.grayscale = cv2.cvtColor(self.original.copy(), cv2.COLOR_BGR2GRAY)
 
-        # crop and wrap to get the sudoku grid
+        # crop and warp to get the sudoku grid
         self.cropped, self.crop_matrix, self.crop_corners = ip_utils.crop_grid(self.grayscale)
         self.cropped_color = None
 
